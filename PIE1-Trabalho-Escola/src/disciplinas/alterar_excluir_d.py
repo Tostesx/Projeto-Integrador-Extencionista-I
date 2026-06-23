@@ -6,7 +6,7 @@ import os
 # DICA: Altere o nome do arquivo CSV para o de disciplinas
 ARQUIVO_DISCIPLINAS = "disciplinas_totais.csv"  # <-- COMPLETAR
 
-def tela_alterar_excluir_disciplina():
+def tela_alterar_excluir():
     # ========== 1. Carregar dados ==========
     # DICA: Carregue o CSV de disciplinas para um DataFrame df.
     #       Se o arquivo não existir ou estiver vazio, crie um DataFrame
